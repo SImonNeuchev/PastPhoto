@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nameUserMenu"
+        android:orderInCategory="1"
+        android:title="@string/register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/registerItem"
+        android:onClick="onClickRegister"
+        android:orderInCategory="2"
+        android:title="@string/register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/loginItem"
+        android:onClick="ocClickLogin"
+       android:orderInCategory="3"
+        android:title="@string/login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exitItem"
+        android:onClick="onClickExit"
+        android:orderInCategory="4"
+        android:title="@string/exit"
+        app:showAsAction="never"/>
+
+</menu>
